@@ -1,5 +1,6 @@
 ---
-title: "Blog"
+title: "سنابل"
+s
 description: ""
 summary: ""
 date: 2023-09-07T16:21:44+02:00
@@ -20,5 +21,5 @@ seo:
 
 اي شيء
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Mzc1NTYzMV19
+eyJoaXN0b3J5IjpbLTIxMTA5Mjc1MDgsMTE1Mzc1NTYzMV19
 -->
