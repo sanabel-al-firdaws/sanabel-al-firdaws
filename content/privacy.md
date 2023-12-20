@@ -1,7 +1,6 @@
 ---
 title: "Privacy Policy"
 description: ""
-slug: ""
 summary: ""
 date: 2023-09-07T17:19:07+02:00
 lastmod: 2023-09-07T17:19:07+02:00

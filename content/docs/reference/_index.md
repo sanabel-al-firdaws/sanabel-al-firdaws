@@ -1,16 +1,15 @@
 ---
-title: "عقيدة أهل السنة و الجماعة"
-slug: ""
+title: "Reference"
 description: ""
 summary: ""
-date: 2023-09-07T16:06:50+02:00
-lastmod: 2023-09-07T16:06:50+02:00
+date: 2023-09-07T16:12:37+02:00
+lastmod: 2023-09-07T16:12:37+02:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "ahl-al-sunnah-4e0d0e0f89f7decc11eaad4ae9193018"
-weight: 800
+    identifier: "reference-22e9ba8aefa7ef9891199cf8db3a08cd"
+weight: 900
 toc: true
 seo:
   title: "" # custom title (optional)
