@@ -11,7 +11,7 @@ tags:
   - أحاديث
   - سنن
 contributors:
-  - abdullhakkem Sami
+  - عبدالحكيم سامي 
 pinned: true
 homepage: false
 seo:

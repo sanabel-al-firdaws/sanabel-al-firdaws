@@ -10,7 +10,7 @@ weight: 50
 categories: 
 tags: 
 contributors:
-  - abdullhakkem Sami
+  - عبدالحكيم سامي
 pinned: false
 homepage: false
 seo:
@@ -21,6 +21,3 @@ seo:
 ---
 
 أضف سنبلة لتكون لك صدقة جارية 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzY3NzI1MCwxMTUzNzU1NjMxXX0=
--->
