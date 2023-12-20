@@ -1,21 +1,23 @@
 ---
-title: "مقال ديني"
-description: "مقال بسيط عشان نتعلم"
+title: مقال ديني
+description: مقال بسيط عشان نتعلم
 summary: ""
-date: 2023-09-07T16:27:22+02:00
+date: 2023-11-07T17:27:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
 weight: 50
-categories: []
-tags: [أحاديث, سنن]
-contributors: []
+categories: 
+tags:
+  - أحاديث
+  - سنن
+contributors: 
 pinned: true
 homepage: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  title: ""
+  description: ""
+  canonical: ""
+  noindex: false
 ---
 
 <!--stackedit_data:

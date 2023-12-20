@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/guides/_index.md",
+                "file": "blog/example/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/guides/_index.md",
+            "file": "blog/example/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/guides/_index.md",
+            "file": "blog/example/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/guides/_index.md"
+            "file": "blog/example/index.md"
           }
         }
       }
@@ -133,6 +133,7 @@
   },
   "active": "19b0c5b26d20f774",
   "lastOpenFiles": [
+    "docs/guides/_index.md",
     "docs/_index.md",
     "_index.md"
   ]
