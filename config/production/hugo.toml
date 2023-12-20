@@ -1,4 +1,4 @@
 # Overrides for production environment
-baseurl = "https://abdullhakim-sami.github.io/sanabel_al_firdaws_/"
+baseurl = "/"
 canonifyURLs = true
 title = "سنابل الفردوس"
