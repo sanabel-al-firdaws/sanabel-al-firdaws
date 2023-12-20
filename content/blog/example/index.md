@@ -6,10 +6,10 @@ date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
 weight: 50
-categories: []
-tags: []
+categories: [سن]
+tags: [أحاديث ]
 contributors: []
-pinned: false
+pinned: true
 homepage: false
 seo:
   title: "" # custom title (optional)
@@ -17,3 +17,6 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTUwODkyMzgxXX0=
+-->
