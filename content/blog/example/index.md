@@ -1,6 +1,6 @@
 ---
 title: "مقال ديني"
-description: "مقال بسيط ."
+description:  "مقال بسيط عشان نتعلم"
 summary: ""
 date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
@@ -21,5 +21,6 @@ seo:
 
 اختبار
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczNTkxNTk4LC0xNTE0MDkwNDMxXX0=
+eyJoaXN0b3J5IjpbLTE4MjY5Njc5MzYsLTE1MTQwOTA0MzFdfQ
+==
 -->
