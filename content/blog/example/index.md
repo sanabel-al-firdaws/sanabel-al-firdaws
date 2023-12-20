@@ -6,8 +6,8 @@ date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
 weight: 50
-categories: [سنة ]
-tags: [أحاديث ]
+categories: []
+tags: [أحاديث ,سنن]
 contributors: []
 pinned: true
 homepage: false
@@ -21,5 +21,5 @@ seo:
 
 اختبار
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQwOTA0MzFdfQ==
+eyJoaXN0b3J5IjpbMTIxNDQ4OTE3MCwtMTUxNDA5MDQzMV19
 -->
