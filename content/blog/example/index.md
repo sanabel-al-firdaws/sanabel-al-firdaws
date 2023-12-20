@@ -6,7 +6,7 @@ date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
 weight: 50
-categories: [سن]
+categories: [سنة ]
 tags: [أحاديث ]
 contributors: []
 pinned: true
@@ -17,6 +17,9 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+
+اختبار
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwODkyMzgxXX0=
+eyJoaXN0b3J5IjpbLTE1MTQwOTA0MzFdfQ==
 -->
