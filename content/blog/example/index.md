@@ -2,7 +2,7 @@
 title: مقال ديني
 description: مقال بسيط عشان نتعلم
 summary: ""
-date: 2023-11-07T17:27:00
+date: 2023-11-16
 lastmod: 2023-09-07T16:27:22+02:00
 draft: false
 weight: 50
