@@ -29,14 +29,14 @@
   url = "/tutorial/lorem/"
 
 [[main]]
-  name = "Docs"
-  url = "https://abdullhakim-sami.github.io/Sanabel_Al_Firdaws_/docs/guides/example-guide/"
+  name = "منهاج المسلم"
+  url = "/sanabel_al_firdaws_/docs/guides/example-guide/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
 
 [[main]]
-  name = "Blog"
-  url = "https://abdullhakim-sami.github.io/Sanabel_Al_Firdaws_/blog/"
+  name = "سنابل"
+  url = "/sanabel_al_firdaws_/blog/"
   weight = 30
 
 # [[social]]

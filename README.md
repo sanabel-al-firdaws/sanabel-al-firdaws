@@ -1,9 +1,9 @@
-# سنابل الفردوس 
+# سنابل الفردوس
 
-## موقع و مدونة تهتم بنشر العلم النافع 
+## موقع و مدونة تهتم بنشر العلم النافع
 
-(قيد الإنشاء)  
+(قيد الإنشاء)
 
-https://abdullhakim-sami.github.io/Sanabel_Al_Firdaws_/
+https://abdullhakim-sami.github.io/sanabel_al_firdaws_/
 
 made with @doks theme for @hugo
