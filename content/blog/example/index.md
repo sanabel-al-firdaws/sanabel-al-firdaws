@@ -1,6 +1,6 @@
 ---
-title: "Example Post"
-description: "Just an example post."
+title: "مقال ديني"
+description: "مقال بسيط ."
 summary: ""
 date: 2023-09-07T16:27:22+02:00
 lastmod: 2023-09-07T16:27:22+02:00
@@ -21,5 +21,5 @@ seo:
 
 اختبار
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDQ4OTE3MCwtMTUxNDA5MDQzMV19
+eyJoaXN0b3J5IjpbNjczNTkxNTk4LC0xNTE0MDkwNDMxXX0=
 -->
