@@ -9,8 +9,7 @@ draft: false
 weight: 50
 categories: 
 tags: 
-contributors:
-  - عبدالحكيم سامي
+contributors: []
 pinned: false
 homepage: false
 seo:

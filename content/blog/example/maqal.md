@@ -21,7 +21,4 @@ seo:
   noindex: false
 ---
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjY5Njc5MzYsLTE1MTQwOTA0MzFdfQ
-==
--->
+هنا نكتب المقال

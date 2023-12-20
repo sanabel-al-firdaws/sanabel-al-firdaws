@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/_index.md",
+                "file": "blog/example/maqal.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "blog/_index.md",
+            "file": "blog/example/maqal.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "blog/_index.md",
+            "file": "blog/example/maqal.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "blog/_index.md"
+            "file": "blog/example/maqal.md"
           }
         }
       }
@@ -133,8 +133,8 @@
   },
   "active": "19b0c5b26d20f774",
   "lastOpenFiles": [
-    "blog/example/index.md",
     "blog/_index.md",
+    "blog/example/maqal.md",
     "2023-11-07.md",
     "docs/guides/_index.md",
     "docs/_index.md",
