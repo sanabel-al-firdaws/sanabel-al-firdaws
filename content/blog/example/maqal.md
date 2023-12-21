@@ -6,7 +6,7 @@ date: 2023-11-08T00:00:00
 lastmod: 2023-11-10T16:27:00
 draft: false
 weight: 50
-categories: 
+categories:
 tags:
   - أحاديث
   - سنن
@@ -22,4 +22,3 @@ seo:
 ---
 
 هنا نكتب المقال
-
