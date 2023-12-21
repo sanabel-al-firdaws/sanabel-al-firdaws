@@ -1,9 +1,8 @@
-
- backend:
-   name: github
-   repo: abdullhakim-sami/sanabel-al-firdaws
-   branch: main
-   base_url: https://sveltia-cms-auth.abdullhakim-sami.workers.dev/
+backend:
+  name: github
+  repo: abdullhakim-sami/sanabel-al-firdaws
+  branch: main
+  base_url: https://sveltia-cms-auth.abdullhakim-sami.workers.dev/
 
 collections:
   - label: "المدونة"
