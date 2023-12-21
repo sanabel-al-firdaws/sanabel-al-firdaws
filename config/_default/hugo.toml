@@ -1,5 +1,5 @@
 title = "سنابل الفردوس"
-baseurl = "http://localhost:1313/sanabel-al-firdaws"
+baseurl = "http://localhost:1313/sanabel-al-firdaws/"
 canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -87,3 +87,4 @@ rel  = "sitemap"
   hint = "photo"
   quality = 75
   resampleFilter = "Box"
+

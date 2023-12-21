@@ -1,16 +1,16 @@
 ---
-title: "العقيدة"
+title: "عن المشروع"
 description: ""
-slug: "al-aqida"
+slug: "0"
 summary: ""
-date: 2023-12-21T02:35:57+03:00
-lastmod: 2023-12-21T02:35:57+03:00
+date: 2023-12-21T03:37:10+03:00
+lastmod: 2023-12-21T03:37:10+03:00
 draft: false
 menu:
   docs:
     parent: ""
-    identifier: "الإيمان -012d89a1655296fe9742dd4ddd7172f5"
-weight: 1
+    identifier: "عن-المشروع8ddf9e1bbljabdbf8ed0630b60add423"
+weight: 999
 toc: true
 seo:
   title: "" # custom title (optional)

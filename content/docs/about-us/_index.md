@@ -1,5 +1,5 @@
 ---
-title: "عن المشروع"
+title: "من نحن"
 description: ""
 slug: ""
 summary: ""

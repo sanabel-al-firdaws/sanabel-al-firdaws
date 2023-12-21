@@ -1,0 +1,29 @@
+local_backend: true
+
+backend:
+  name: local
+
+collections:
+  - label: "المدونة"
+    name: "blog"
+    folder: "content/blog"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Contributors", name: "contributors", widget: "list" }
+
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      # - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # - label: "منهاج المسلم"
+  #   name: "docs"
+  #   folder: "content/docs"
+  #   create: true
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Publish Date", name: "date", widget: "datetime" }
+  #     # - { label: "Featured Image", name: "thumbnail", widget: "image" }
+  #     - { label: "Body", name: "body", widget: "markdown" }
+media_folder: static/img

@@ -103,3 +103,4 @@
 [[mounts]]
   source = "static"
   target = "static"
+
