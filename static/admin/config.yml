@@ -1,7 +1,9 @@
-local_backend: true
 
-backend:
-  name: local
+ backend:
+   name: github
+   repo: abdullhakim-sami/sanabel-al-firdaws
+   branch: main
+   base_url: https://sveltia-cms-auth.abdullhakim-sami.workers.dev/
 
 collections:
   - label: "المدونة"
@@ -9,13 +11,24 @@ collections:
     folder: "content/blog"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Contributors", name: "contributors", widget: "list" }
+      - { label: "عنوان المقال", name: "title", widget: "string" }
+      - { label: "رابط المقال", name: "slug", widget: "string" }
+      - { label: "المؤلفون", name: "contributors", widget: "list" }
 
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "التصنيفات",
+          name: "categories",
+          widget: "list",
+          required: false,
+        }
+      - { label: "مسودة", name: "draft", widget: "boolean", default: true }
+      - { label: "العلامات", name: "tags", widget: "list", required: false }
+
+      - { label: "تاريخ كتابة المقال", name: "date", widget: "datetime" }
+      - { label: "اخر تحديث", name: "lastmod", widget: "datetime" }
+
       # - { label: "Featured Image", name: "thumbnail", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "محتوى المقال", name: "body", widget: "markdown" }
 
   # - label: "منهاج المسلم"
   #   name: "docs"
