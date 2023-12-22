@@ -1,8 +1,10 @@
 ---
 backend:
+  # name: git-gateway
+  name: github
   base_url: https://sveltia-cms-auth.abdullhakim-sami.workers.dev
   branch: main
-  name: github
+
   repo: abdullhakim-sami/sanabel-al-firdaws
 collections:
   - create: true
@@ -19,14 +21,11 @@ collections:
       - label: المؤلفون
         name: contributors
         widget: list
-      - default: true
-        label: التصنيفات
-        name: categories
-        required: false
-        widget: list
+
       - label: مسودة
         name: draft
         widget: boolean
+        default: true
       - label: العلامات
         name: tags
         required: false
@@ -37,11 +36,18 @@ collections:
       - label: اخر تحديث
         name: lastmod
         widget: datetime
+      - label: التصنيفات
+        name: categories
+        required: false
+        widget: list
     folder: content/blog
     label: المدونة
     name: blog
     nested:
       depth: 100
+local_backend: false
+media_folder:
+  static/img
   # - label: "منهاج المسلم"
   #   name: "docs"
   #   folder: "content/docs"
@@ -50,5 +56,4 @@ collections:
   #     - { label: "Title", name: "title", widget: "string" }
   #     - { label: "Publish Date", name: "date", widget: "datetime" }
   #     # - { label: "Featured Image", name: "thumbnail", widget: "image" }
-  #     - { label: "Body", name: "body", widget: "markdown" }
-media_folder: static/img
+  #     - { label: "Body", name: "body", widget: "markdown" }# backend:
