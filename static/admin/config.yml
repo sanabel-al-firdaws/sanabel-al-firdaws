@@ -16,12 +16,12 @@ collections:
       - label: المؤلفون
         name: contributors
         widget: list
-      - label: التصنيفات
+      - default: true
+        label: التصنيفات
         name: categories
         required: false
         widget: list
-      - default: true
-        label: مسودة
+      - label: مسودة
         name: draft
         widget: boolean
       - label: العلامات
@@ -37,11 +37,10 @@ collections:
       - label: محتوى المقال
         name: body
         widget: markdown
-    
     folder: content/blog
     label: المدونة
     name: blog
-      nested:
+    nested:
       depth: 100
   # - label: "منهاج المسلم"
   #   name: "docs"
