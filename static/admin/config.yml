@@ -1,7 +1,9 @@
 ---
-allowed_hosts: ['192.168.0.1']
 backend:
-  name: git-gateway
+  base_url: https://sveltia-cms-auth.abdullhakim-sami.workers.dev
+  branch: main
+  name: github
+  repo: abdullhakim-sami/sanabel-al-firdaws
 collections:
   - create: true
     fields:
@@ -35,11 +37,19 @@ collections:
       - label: محتوى المقال
         name: body
         widget: markdown
+    
     folder: content/blog
     label: المدونة
     name: blog
-    nested:
+      nested:
       depth: 100
-local_backend: true
-media_folder: static/img      # adding a path object allows editing the path of entries
-      # moving an existing entry will move the entire sub tree of the entry to the new location
+  # - label: "منهاج المسلم"
+  #   name: "docs"
+  #   folder: "content/docs"
+  #   create: true
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Publish Date", name: "date", widget: "datetime" }
+  #     # - { label: "Featured Image", name: "thumbnail", widget: "image" }
+  #     - { label: "Body", name: "body", widget: "markdown" }
+media_folder: static/img
