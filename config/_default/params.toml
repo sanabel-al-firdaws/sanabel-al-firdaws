@@ -40,7 +40,7 @@ images = ["cover.png"]
   # Nav
   sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
   toTopButton = false # false (default) or true
-  breadcrumbTrail = false # false (default) or true
+  breadcrumbTrail = true # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
 
@@ -53,14 +53,14 @@ images = ["cover.png"]
   docsVersion = "1.0"
 
   # UX
-  headerBar = false # true (default) or false
+  headerBar = true # true (default) or false
   backgroundDots = true # true (default) or false
 
   # Homepage
   sectionFooter = false # false (default) or true
 
   # Blog
-  relatedPosts = false # false (default) or true
+  relatedPosts = true # false (default) or true
   imageList = true # true (default) or false
   imageSingle = true # true (default) or false
 
@@ -69,7 +69,7 @@ images = ["cover.png"]
 
   # Repository
   editPage = true # false (default) or true
-  lastMod = false # false (default) or true
+  lastMod = true # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
   docsRepo = "https://github.com/abdullhakim-sami/Sanabel-Al-Firdaws"
   docsRepoBranch = "main" # main (default), master, or <branch name>
@@ -115,7 +115,7 @@ images = ["cover.png"]
 # SEO (@hyas/seo)
 [seo]
   [seo.title]
-    separator = " | "
+    separator = " - "
     suffix = ""
   [seo.favicons]
     sizes = []
@@ -135,60 +135,3 @@ images = ["cover.png"]
     product = [] # Product sections
 
 
-
-[headless_cms]
-engine = "sveltia"
-site_url = "http://localhost:1313/sanabel-al-firdaws/"
-
-  [headless_cms.backend]
-  name = "github"
-  repo = "abdullhakim-sami/sanabel-al-firdaws"
-  branch = "main"
-  media_folder ="static/images/"
-
-[[headless_cms.collections]]
-name = "blog"
-label = "Blog"
-folder = "content/blog/"
-create = true
-slug = "{{year}}-{{month}}-{{day}}-{{slug}}"
-# local_backend= true
-[headless_cms.collections.blog]
-
-
-
-  [[headless_cms.collections.blog.fields]]
-  label = "Title"
-  name = "title"
-  widget = "string"
-
-  [[headless_cms.collections.fields]]
-  label = "Layout"
-  name = "layout"
-  widget = "hidden"
-  default = "blog"
-
-  [[headless_cms.collections.fields]]
-  label = "Title"
-  name = "title"
-  widget = "string"
-
-  [[headless_cms.collections.fields]]
-  label = "Publish Date"
-  name = "date"
-  widget = "datetime"
-
-  [[headless_cms.collections.fields]]
-  label = "Featured Image"
-  name = "thumbnail"
-  widget = "image"
-
-  [[headless_cms.collections.fields]]
-  label = "Rating (scale of 1-5)"
-  name = "rating"
-  widget = "number"
-
-  [[headless_cms.collections.fields]]
-  label = "Body"
-  name = "body"
-  widget = "markdown"

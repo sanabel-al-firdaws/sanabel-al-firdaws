@@ -2,19 +2,20 @@ title = "سنابل الفردوس"
 baseurl = "http://localhost:1313/sanabel-al-firdaws/"
 canonifyURLs = true
 disableAliases = true
+
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "en-US"
+languageCode = "ar-SA"
 paginate = 10
 rssLimit = 10
 summarylength = 20 # 70 (default)
 
 # Multilingual
-defaultContentLanguage = "en"
-disableLanguages = ["de", "nl"]
+defaultContentLanguage = "ar"
+disableLanguages = ["de", "nl","en"]
 defaultContentLanguageInSubdir = false
 
 copyRight = "Copyright (c) 2023 Hyas"

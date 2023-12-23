@@ -1,12 +1,12 @@
-[en]
-  languageName = "English"
-  contentDir = "content/en"
+[ar]
+  languageName = "العربية"
+  contentDir = "content/"
   weight = 10
-  [en.params]
-    languageISO = "EN"
-    languageTag = "en-US"
-    footer = 'Brought to you by <a class="text-muted" href="https://gethyas.com/">Hyas</a>'
-    alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Doks version 1.0 just shipped!</a>'
+  [ar.params]
+    languageISO = "AR"
+    languageTag = "ar-SA"
+    footer = 'من تطوير <a class="text-muted" href="https://github.com/abdullhakim-sami/"> عبدالحكيم سامي الشنقيطي</a>'
+    # alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Doks version 1.0 just shipped!</a>'
 
 [de]
   languageName = "German"
