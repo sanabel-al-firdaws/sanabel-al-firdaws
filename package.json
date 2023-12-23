@@ -5,15 +5,15 @@
   "author": "Hyas",
   "license": "MIT",
   "scripts": {
-    "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --noHTTPCache",
-    "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --noHTTPCache --buildDrafts",
-    "create": "exec-bin node_modules/.bin/hugo/hugo new",
+    "dev": "hugo server --bind=0.0.0.0 --disableFastRender --noHTTPCache",
+    "dev:drafts": "hugo server --bind=0.0.0.0 --disableFastRender --noHTTPCache --buildDrafts",
+    "create": "hugo new",
     "lint": "npm run lint:markdown",
     "lint:scripts": "eslint --cache themes/doks/assets/js",
     "lint:styles": "stylelint --cache \"themes/doks/assets/scss/**/*.{css,sass,scss}\"",
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --cleanDestinationDir --minify",
+    "build": "hugo --cleanDestinationDir --minify",
     "preview": "http-server --gzip --brotli --ext=html --cors",
     "clean": "npm run clean:build && npm run clean:lint && npm run clean:install",
     "clean:build": "shx rm -rf public resources .hugo_build.lock",
@@ -21,7 +21,7 @@
     "clean:lint": "shx rm -rf .eslintcache .stylelintcache",
     "preinfo": "npm version",
     "info": "npm list",
-    "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
+    "postinfo": "hugo version",
     "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo"
   },
   "dependencies": {
