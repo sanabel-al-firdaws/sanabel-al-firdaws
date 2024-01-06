@@ -4,6 +4,6 @@
 
 (قيد الإنشاء)
 
-https://abdullhakim-sami.github.io/sanabel-al-firdaws/
+https://sanabel-al-firdaws.github.io 
 
-made with @doks theme for @hugo
+
